@@ -1,5 +1,45 @@
 /* the main color is #d8f2b8 (this is a HEX code) */
+.primary-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  #d8f2b8 ;
+    width: 100vw;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 .logo{
-    width: 150px;
-    height: 125px;
+    width: 70px;
+    height: 70px;
+}
+.logo-text{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 35px;
+    margin-left: 5px;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    justify-content: center
+}
+.nav-links{
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400px;
+    font-size: 18px;
+    text-decoration: none;
+    list-style-type:none;
+    color: black;
+}
+.nav-links:hover {
+    color: #88a862;
+    text-decoration: underline;
+
 }
