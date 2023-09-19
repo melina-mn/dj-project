@@ -41,5 +41,41 @@
 .nav-links:hover {
     color: #88a862;
     text-decoration: underline;
-
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #d8f2b8;
+}
+.p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400px;
+    font-size: 15px;
+    text-decoration: none;
+    list-style-type:none;
+    color: black;
+}
+.about-container{
+    max-width: 35vw;
+}
+h1{
+    width: 100vw;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400px;
+    margin-top: 40px;
+}
+.h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400px;
+    font-size: 18px;
+    text-decoration: none;
+    list-style-type:none;
+    color: black;
+}
+.qoute{
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 20px;
 }
