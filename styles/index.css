@@ -117,14 +117,14 @@ form{
     width: 500px;
     justify-content: space-around;
 }
-body{
-    /* margin-top: 100px;
-    margin-left: 100px; */
+/* body{
+    margin-top: 100px;
+    margin-left: 100px; 
     background: #000000;
     max-width: 1700px;
     display: flex;
     align-items: center;
-}
+} */
 
 .btn{
     background: #d8f2b8;
