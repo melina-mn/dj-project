@@ -105,6 +105,10 @@ h1 {
 }
 
 /* CONTACT STYLING */
+.contact-us {
+    font-family: 'Poppins', sans-serif;
+}
+
 input, select, textarea {
     width: 100%; 
     padding: 22px;
@@ -163,7 +167,6 @@ form {
 
 .btn:focus {
     outline: none;
-    
 }
 
 .btn:hover {
