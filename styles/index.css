@@ -58,7 +58,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: #d8f2b8;
+    align-items: stretch;
+    background-color: black;
 }
 
 .p {
@@ -74,12 +75,14 @@
     max-width: 35vw;
 }
 
-h1 {
+.about-title {
     width: 100vw;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 400px;
+    font-size: 35px;
     margin-top: 40px;
+    color: #d8f2b8;
 }
 
 .h3 {
@@ -275,4 +278,11 @@ form {
 .yesterdayland-logo {
     width: 125px;
     height: 125px;  
+}
+.container-center-about{
+    text-align: center;
+    width: 400px;
+    background-color: #d8f2b8;
+    border-radius: 5%;
+    margin: 20px;
 }
