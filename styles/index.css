@@ -1,11 +1,5 @@
 /* the main color is #d8f2b8 (this is a HEX code) */
 
-/* GLOBAL */
-main {
-    width: 100%;
-	max-height: 100vh;
-}
-
 /* NAV_BAR STYLING */
 .header-nav {
     font-family: 'Poppins', sans-serif;
