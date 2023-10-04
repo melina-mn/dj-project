@@ -69,6 +69,7 @@
     text-decoration: none;
     list-style-type:none;
     color: black;
+    line-height: 1.6;
 }
 
 .about-container {
@@ -77,18 +78,28 @@
 
 .about-title {
     width: 100vw;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 400px;
     font-size: 35px;
     margin-top: 40px;
     color: #d8f2b8;
+    margin-top: 20px;
 }
 
 .h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400px;
     font-size: 18px;
+    text-decoration: none;
+    list-style-type:none;
+    color: black;
+}
+.h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
     text-decoration: none;
     list-style-type:none;
     color: black;
@@ -285,4 +296,65 @@ form {
     background-color: #d8f2b8;
     border-radius: 5%;
     margin: 20px;
+}
+.past-years-container{
+    text-align: left;
+    width: 400px;
+    background-color: #d8f2b8;
+    border-radius: 5%;
+    margin: 20px;
+}
+.year{
+    width: 98%;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 400px;
+    font-size: 170px;
+    margin-top: 40px;
+    color: #d8f2b8;
+    margin-bottom: -30px;
+}
+.picture{
+    width: 66%;
+    max-height: 57%;
+}
+
+.past-year-content{
+    text-align: left;
+    width: 28%;
+    background-color: #d8f2b8;
+    padding: 15px;
+    margin-top: 50px;
+    justify-content: flex-start;
+}
+.last-year{
+    justify-content: space-between;
+    max-height: 800px;
+}
+.left{
+    justify-content: flex-start;
+}
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400px;
+    font-size: 18px;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+.footer-nav {
+    font-family: 'Poppins', sans-serif;
+    background-color:  #d8f2b8 ;
+    padding: 5px 5%;
+    border-left: none;
+    border-right: none;
+    border-top: black solid 1px;
+}
+.footer{
+    justify-content: flex-end;
+}
+.marginleft{
+    margin-left: 20px;
 }
