@@ -224,7 +224,7 @@ form {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(0, 0, 0);
 }
 
 .container-center {
@@ -290,13 +290,16 @@ form {
     width: 125px;
     height: 125px;  
 }
-.container-center-about{
+
+/* GALLERY PAGE STYLING */
+.container-center-about {
     text-align: center;
     width: 400px;
     background-color: #d8f2b8;
     border-radius: 5%;
     margin: 20px;
 }
+
 .past-years-container{
     text-align: left;
     width: 400px;
@@ -304,7 +307,8 @@ form {
     border-radius: 5%;
     margin: 20px;
 }
-.year{
+
+.year {
     width: 98%;
     display: flex;
     justify-content: flex-end;
@@ -316,12 +320,13 @@ form {
     color: #d8f2b8;
     margin-bottom: -30px;
 }
-.picture{
+
+.picture {
     width: 66%;
     max-height: 57%;
 }
 
-.past-year-content{
+.past-year-content {
     text-align: left;
     width: 28%;
     background-color: #d8f2b8;
@@ -329,14 +334,17 @@ form {
     margin-top: 50px;
     justify-content: flex-start;
 }
-.last-year{
+
+.last-year {
     justify-content: space-between;
     max-height: 800px;
 }
-.left{
+
+.left {
     justify-content: flex-start;
 }
-h4{
+
+h4 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400px;
     font-size: 18px;
@@ -344,6 +352,7 @@ h4{
     list-style-type: none;
     color: black;
 }
+
 .footer-nav {
     font-family: 'Poppins', sans-serif;
     background-color:  #d8f2b8 ;
@@ -352,9 +361,11 @@ h4{
     border-right: none;
     border-top: black solid 1px;
 }
-.footer{
+
+.footer {
     justify-content: flex-end;
 }
-.marginleft{
+
+.marginleft {
     margin-left: 20px;
 }
